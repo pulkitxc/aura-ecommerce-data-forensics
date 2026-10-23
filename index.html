@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- AURA SKINCARE website -->
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+
+      var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l !== 'dataLayer' ? '&l=' + l : '';
+
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WWSPSD7C');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AURA SKINCARE — Your skin. Your ritual. Your aura.</title>
+
+  <meta
+    name="description"
+    content="Thoughtfully crafted skincare for your everyday glow. Simple formulas, intentional rituals, skin that feels like you."
+  >
+
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%237C8B6F'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='%23FAF7F1' font-family='Georgia,serif'%3EA%3C/text%3E%3C/svg%3E"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700&family=Jost:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <button id="test-track-btn" style="position:fixed; bottom:20px; right:20px; z-index:9999; padding:10px; background:red; color:white; border:none; border-radius:5px;">Test Track</button>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-WWSPSD7C"
+      height="0"
+      width="0"
+      style="display:none;visibility:hidden"
+      title="Google Tag Manager"
+    ></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Your website content starts here -->
+
+  <!-- Load JavaScript after the HTML has been parsed -->
+  <script src="script.js" defer></script>
+</body>
+</html>
+
+
+<div class="announce"><span id="announceText">✦ Your daily ritual, delivered with care — Free shipping over ₹999</span></div>
+
+<header id="header">
+  <div class="container nav">
+    <button class="iconbtn hamburger" id="hamburger" aria-label="Menu">☰</button>
+    <a href="#home" class="logo"><b>AURA</b><small>SKINCARE</small></a>
+    <nav class="navlinks">
+      <a href="#home">Home</a><a href="#shop">Shop All</a><a href="#bestsellers">Bestsellers</a><a href="#story">Our Story</a><a href="#journal">Skin Journal</a>
+    </nav>
+    <div class="icons">
+      <button class="iconbtn" id="searchBtn" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button>
+      <button class="iconbtn" id="accountBtn" aria-label="Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 5-5.5 8-5.5s6.5 1.5 8 5.5"/></svg></button>
+      <button class="iconbtn" id="bagBtn" aria-label="Bag"><svg viewBox="0 0 24 24"><path d="M6 8h15l-1.5 12h-12z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="badge" id="bagCount">0</span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div style="display:flex;justify-content:space-between;align-items:center"><span class="logo"><b>AURA</b><small>SKINCARE</small></span><button class="close" id="closeMobile" aria-label="Close menu">×</button></div>
+  <div style="margin-top:30px"><a href="#home">Home</a><a href="#shop">Shop All</a><a href="#bestsellers">Bestsellers</a><a href="#story">Our Story</a><a href="#journal">Skin Journal</a></div>
+  <button class="btn btn-dark" style="margin-top:24px;width:100%;justify-content:center" onclick="closeMobileMenu();openQuiz()">Find Your Ritual →</button>
+</div>
+
+<main id="home">
+<!-- HERO -->
+<div class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy reveal in">
+      <span class="pill"><i></i> Clean • Vegan • Dermatologist Tested</span>
+      <h1>A little ritual.<br><em>A lot of radiance.</em></h1>
+      <p class="lead">Thoughtfully crafted skincare for your everyday glow. Simple formulas, intentional rituals, skin that feels like you.</p>
+      <div class="hero-ctas">
+        <a href="#shop" class="btn btn-dark">Shop Skincare →</a>
+        <a href="#story" class="btn btn-light">Discover Our Philosophy</a>
+      </div>
+      <div class="proof">
+        <div class="avatars"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&auto=format&fit=crop" alt="Customer Ananya"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=100&auto=format&fit=crop" alt="Customer Priya"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=100&auto=format&fit=crop" alt="Customer Meera"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=100&auto=format&fit=crop" alt="Customer Kavya"></div>
+        <div><div class="stars">★★★★★ <span style="color:#282A25;letter-spacing:0">4.9</span></div><small>12,400+ rituals started across India</small></div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>92%</b><span>Felt softer skin*</span></div>
+        <div class="stat"><b>0</b><span>Harsh fragrance</span></div>
+        <div class="stat"><b>28 days</b><span>To visible glow</span></div>
+      </div>
+    </div>
+    <div class="hero-visual reveal in">
+      <div class="main-img"><img src="https://images.unsplash.com/photo-1612817288484-6f916006741a?q=80&w=1200&auto=format&fit=crop" alt="AURA skincare editorial — glass serum bottles on linen"></div>
+      <div class="badge-circle">New Ritual Collection • 2026 •</div>
+      <div class="float-card">
+        <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=300&auto=format&fit=crop" alt="Dew Drop Hydrating Serum">
+        <div><span class="eyebrow" style="font-size:9px">Bestseller No.1</span><b>Dew Drop Serum</b><span>₹799 · Hyaluronic Acid</span><br><button onclick="addToCart(1,1,true)">Add to Bag — ₹799</button></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+
+<!-- BESTSELLERS -->
+<section id="bestsellers">
+  <div class="container">
+    <div class="section-head reveal"><div><span class="eyebrow">★ Bestsellers</span><h2>Loved, on repeat.<br><em>Made for every day.</em></h2></div><p>Three essentials. Zero fuss. The products our community reaches for morning and night — now in refillable glass packaging.</p></div>
+    <div class="grid3" id="bestGrid"></div>
+
+    <div class="quiz-banner reveal">
+      <div><span class="eyebrow" style="color:#B9C4AC">Personalised in 30 seconds</span><h3>Not sure where to start?<br>Find your ritual.</h3><p>Answer 3 gentle questions about your skin. We'll build a simple routine — no 10-step overwhelm.</p></div>
+      <div style="text-align:right"><button class="btn" style="background:#fff;color:#282A25" onclick="openQuiz()">Take Skin Quiz →</button><p style="font-size:12px;margin-top:12px">★★★★★ Loved by 4,800+ quiz takers</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOP -->
+<section id="shop" style="padding-top:20px">
+  <div class="container">
+    <div class="section-head reveal"><div><span class="eyebrow">Shop All</span><h2>The complete <em>ritual shelf.</em></h2></div><a href="#ritual" class="link">Build a routine ↓</a></div>
+    <div class="filters" id="filters">
+      <button class="filter active" data-filter="All">All Products</button>
+      <button class="filter" data-filter="Cleanser">Cleansers</button>
+      <button class="filter" data-filter="Serum">Serums</button>
+      <button class="filter" data-filter="Moisturizer">Moisturizers</button>
+      <button class="filter" data-filter="Treatment">Treatments</button>
+    </div>
+    <div class="grid-shop" id="shopGrid"></div>
+  </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section class="philosophy" id="story">
+  <div class="container phil-grid">
+    <figure class="phil-img reveal"><img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?q=80&w=1000&auto=format&fit=crop" alt="Woman enjoying a calm skincare ritual in natural light"><figcaption><b>“Skin that feels like you.”</b><p>No filters. No pressure. Just healthy, comfortable skin.</p></figcaption></figure>
+    <div class="reveal">
+      <span class="eyebrow">Our Philosophy</span>
+      <h2 class="serif" style="font-size:clamp(36px,4vw,54px);line-height:1.05;font-weight:400;margin:14px 0">Less noise.<br><em style="color:var(--sage2)">More intention.</em></h2>
+      <p style="color:var(--muted);font-weight:300">We started AURA because skincare had become loud — too many steps, too many promises. We make fewer, better formulas with proven ingredients at honest prices, in packaging you'll want to keep.</p>
+      <div class="checks">
+        <div class="check"><span>✓</span><div><b>Intentional formulas</b><p>Every ingredient has a job. No filler, no trend-chasing.</p></div></div>
+        <div class="check"><span>✓</span><div><b>Gentle, always</b><p>pH-balanced, fragrance-light, suitable for sensitive skin.</p></div></div>
+        <div class="check"><span>✓</span><div><b>Kind to planet</b><p>Recyclable glass, refill pouches, carbon-aware shipping.</p></div></div>
+      </div>
+      <div class="numbers"><div><b>48k+</b><span>Community</span></div><div><b>96%</b><span>Would repurchase</span></div><div><b>₹499</b><span>Starts at</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- RITUAL -->
+<section id="ritual">
+  <div class="container">
+    <div class="section-head reveal"><div><span class="eyebrow">The AURA Ritual</span><h2>Three steps.<br><em>Morning & night.</em></h2></div><p>Tap each step to explore. A complete routine in under 3 minutes — consistency over complexity.</p></div>
+    <div class="ritual-wrap">
+      <div class="steps" id="ritualSteps"></div>
+      <div class="ritual-visual reveal"><img id="ritualImg" src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?q=80&w=1000&auto=format&fit=crop" alt="Step of the AURA ritual"><div class="ritual-caption"><div><b id="ritualTitle">Start fresh, gently.</b><p id="ritualDesc">60 seconds, lukewarm water, no squeaky feeling.</p></div><button class="btn btn-dark" style="padding:12px 18px" onclick="addBundle()">Add Ritual Set · ₹1,699</button></div></div>
+    </div>
+    <p style="font-size:12px;color:var(--muted);margin-top:12px">Bundle saves ₹298 vs buying separately (₹1,997). Includes Cleanser + Serum + Cream.</p>
+  </div>
+</section>
+
+<!-- INGREDIENTS -->
+<section style="padding-top:0"><div class="container"><div class="ing reveal">
+  <span class="eyebrow" style="color:#B9C4AC">Inside the bottle</span><h2 class="serif" style="font-size:clamp(32px,4vw,48px);font-weight:400;margin-top:10px">Ingredients with intention.</h2>
+  <div class="ing-pills" id="ingPills"></div>
+  <div class="ing-panel"><div><h3 id="ingName">Hyaluronic Acid</h3><p id="ingDesc" style="margin-top:12px">A hydration magnet that draws water into skin for a plump, dewy feel — without heaviness or stickiness.</p><div style="display:flex;justify-content:space-between;font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-top:22px"><span>Hydration</span><span id="ingPct">96%</span></div><div class="meter"><i id="ingBar" style="width:96%"></i></div><button class="btn" style="background:#fff;color:#282A25" onclick="filterShop('Serum')">Shop with this ingredient →</button></div><div class="ing-img"><img id="ingImg" src="https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?q=80&w=800&auto=format&fit=crop" alt="Active ingredient visual"></div></div>
+</div></div></section>
+
+<!-- REVIEWS -->
+<section class="reviews" style="padding:70px 0">
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">Real Skin, Real Stories</span><h2>12,400+ five-star <em>rituals.</em></h2></div><div class="rev-nav"><button class="arrow" onclick="moveRev(-1)" aria-label="Previous review">←</button><button class="arrow" onclick="moveRev(1)" aria-label="Next review">→</button></div></div>
+    <div class="rev-viewport"><div class="rev-track" id="revTrack"></div></div>
+  </div>
+</section>
+
+<!-- JOURNAL -->
+<section id="journal">
+  <div class="container">
+    <div class="section-head reveal"><div><span class="eyebrow">Skin Journal</span><h2>Notes on <em>skin & self-care.</em></h2></div><span class="link">Read all stories →</span></div>
+    <div class="journal-grid">
+      <article class="article reveal"><img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=800&auto=format&fit=crop" alt="Skincare flat lay with creams"><div><span class="eyebrow">Routine · 4 min</span><h3>Why your barrier matters more than actives</h3><p>A dermatologist explains the quiet foundation of glow.</p><br><span class="link" style="font-size:11px">Read story →</span></div></article>
+      <article class="article reveal"><img src="https://images.unsplash.com/photo-1570172612374-eb18027aa2c9?q=80&w=800&auto=format&fit=crop" alt="Woman applying face cream"><div><span class="eyebrow">Ingredients · 3 min</span><h3>Ceramides, explained simply</h3><p>What they do, who needs them, and how to layer them.</p><br><span class="link" style="font-size:11px">Read story →</span></div></article>
+      <article class="article reveal"><img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop" alt="Person doing an evening skincare wind-down"><div><span class="eyebrow">Ritual · 5 min</span><h3>The 3-minute evening wind-down</h3><p>Turn cleansing into a moment that is fully yours.</p><br><span class="link" style="font-size:11px">Read story →</span></div></article>
+    </div>
+
+    <div style="margin-top:70px"><div class="section-head"><div><span class="eyebrow">Good to know</span><h2 style="font-size:36px">Questions, answered.</h2></div></div><div class="faq" id="faq"></div></div>
+
+    <div class="newsletter reveal" style="margin-top:60px">
+      <span class="eyebrow">Newsletter</span><h2>A little glow in your inbox.</h2><p>Discover skincare rituals, product launches, and notes from AURA. One thoughtful email a week — no spam, ever.</p>
+      <form class="news-form" id="newsForm" novalidate><input type="email" id="newsEmail" placeholder="Your email address" aria-label="Email address" required><button type="submit">Subscribe</button></form>
+      <p style="font-size:11px;margin-top:14px">Get 10% off your first order with code <b>AURA10</b> · Unsubscribe anytime</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div><div class="foot-logo">AURA</div><p style="font-size:11px;letter-spacing:.4em;color:#9AA88E;margin:4px 0 14px">SKINCARE</p><p style="font-size:13px;max-width:280px">Your skin. Your ritual. Your aura.<br>Thoughtfully crafted in India for skin everywhere.</p><p style="margin-top:16px;font-size:12px">hello@auraskincare.in<br>Mumbai · Bengaluru · Delhi</p></div>
+      <div><h4>Shop</h4><a href="#shop">Shop All</a><a href="#bestsellers">Bestsellers</a><a href="#shop">Serums</a><a href="#shop">Moisturizers</a><a href="#shop">Gift Sets</a></div>
+      <div><h4>About</h4><a href="#story">Our Story</a><a href="#story">Philosophy</a><a href="#journal">Skin Journal</a><a href="#ritual">The Ritual</a></div>
+      <div><h4>Help</h4><a href="#journal">FAQ</a><a href="#">Contact</a><a href="#">Shipping & Returns</a><a href="#">Track Order</a></div>
+      <div><h4>Legal</h4><a href="#">Privacy Policy</a><a href="#">Terms</a><a href="#">Accessibility</a></div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 AURA SKINCARE. All rights reserved.</span><span>*Based on 112-person consumer perception study, 28 days.</span><span>Made with intention in India 🇮🇳</span></div>
+  </div>
+</footer>
+
+<!-- CART DRAWER -->
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="cartDrawer" aria-label="Shopping bag">
+  <div class="drawer-head"><div><b>Your Bag</b><span id="cartSub" style="font-size:12px;color:var(--muted);display:block">0 items</span></div><button class="close" onclick="closeCart()" aria-label="Close bag">×</button></div>
+  <div class="ship"><p id="shipText">Add ₹999 for FREE shipping</p><div class="shipbar"><i id="shipBar" style="width:0%"></i></div></div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-foot">
+    <div class="promo"><input id="promoInput" placeholder="Promo code (try AURA10)" aria-label="Promo code"><button onclick="applyPromo()">Apply</button></div>
+    <div class="row"><span>Subtotal</span><span id="subTotal">₹0</span></div>
+    <div class="row"><span>Discount</span><span id="discountRow">—</span></div>
+    <div class="row"><span>Shipping</span><span id="shipCost">₹49</span></div>
+    <div class="row total"><span>Total</span><span id="grandTotal">₹0</span></div>
+    <button class="btn btn-dark checkout" style="justify-content:center" onclick="checkout()">Checkout Securely →</button>
+    <p style="text-align:center;font-size:11px;color:var(--muted);margin-top:10px">Free returns in 30 days · COD available · Secure payment</p>
+  </div>
+</aside>
+
+<!-- QUICK VIEW MODAL -->
+<div class="modal" id="quickModal" role="dialog" aria-modal="true" aria-label="Quick view"><div class="modal-box"><button class="close modal-close" onclick="closeQuick()" aria-label="Close">×</button><img id="qvImg" alt="Product image"><div class="modal-content"><span class="eyebrow" id="qvCat"></span><h3 id="qvName"></h3><div class="rating" id="qvRating"></div><p id="qvDesc" style="color:var(--muted);font-weight:300"></p><div class="chips" id="qvChips"></div><div style="display:flex;justify-content:space-between;align-items:center;margin:20px 0;gap:14px;flex-wrap:wrap"><span class="price" id="qvPrice" style="font-size:24px"></span><div class="qty"><button onclick="changeQv(-1)" aria-label="Decrease quantity">−</button><b id="qvQty">1</b><button onclick="changeQv(1)" aria-label="Increase quantity">+</button></div></div><button class="btn btn-dark" style="width:100%;justify-content:center" id="qvAdd">Add to Bag</button><div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:18px;text-align:center;font-size:11px"><div style="background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px">🌿<br>Vegan</div><div style="background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px">♻️<br>Refillable</div><div style="background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px">✓<br>Derm Tested</div></div><p style="font-size:12px;color:var(--muted);margin-top:16px" id="qvNotes"></p></div></div></div>
+
+<!-- SEARCH MODAL -->
+<div class="modal" id="searchModal" role="dialog" aria-modal="true" aria-label="Search products"><div class="searchbox"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px"><b class="serif" style="font-size:24px">Search AURA</b><button class="close" onclick="closeSearch()" aria-label="Close search">×</button></div><input id="searchInput" placeholder="Search serum, cream, cleanser..." aria-label="Search products"><div style="display:flex;gap:6px;margin-top:12px;flex-wrap:wrap"><button class="chip" onclick="quickSearch('Serum')">Serum</button><button class="chip" onclick="quickSearch('Cream')">Cream</button><button class="chip" onclick="quickSearch('Hydrating')">Hydrating</button><button class="chip" onclick="quickSearch('Mask')">Mask</button></div><div id="searchResults"></div></div></div>
+
+<!-- QUIZ MODAL -->
+<div class="modal" id="quizModal" role="dialog" aria-modal="true" aria-label="Skin quiz"><div class="searchbox" style="max-width:560px"><div style="display:flex;justify-content:space-between;align-items:center"><b class="serif" style="font-size:24px">Find Your Ritual</b><button class="close" onclick="closeQuiz()" aria-label="Close quiz">×</button></div><div style="height:6px;background:var(--cream);border-radius:999px;margin:18px 0;overflow:hidden"><i id="quizBar" style="display:block;height:100%;width:33%;background:var(--sage2);transition:.4s"></i></div><div id="quizBody"></div></div></div>
+
+<div class="toast" id="toast" role="status" aria-live="polite">✓ <span id="toastText">Added to bag</span></div>
+
+
+</body>
+</html>
