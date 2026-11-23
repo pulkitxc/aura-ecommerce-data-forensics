@@ -91,7 +91,9 @@ That was the moment the dashboard finally lit up. It taught me that the hardest 
 
 ## 📊 The Dashboard (The Executable Result)
 
-![Aura Skincare P&L Leak Dashboard](./Aura%20Skincare%20P%26L%20Leak%20Dashboard.png)
+![Aura Skincare P&L Leak Dashboard](auraskincare.png)
+
+🔗 **[View the Live Looker Studio Dashboard Here](https://datastudio.google.com/reporting/38eb90e4-994d-4058-b891-4b346af0a05e)**
 
 All this tracking is useless if a founder can't read it in 60 seconds. I built this dashboard in Looker Studio to answer three questions: **Where are we leaking money? What is the user psychology? What is causing hesitation?**
 
